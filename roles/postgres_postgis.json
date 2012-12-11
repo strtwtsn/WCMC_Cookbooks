@@ -1,0 +1,1 @@
+{ "run_list": [ "recipe[GDAL_v1.9.2]","recipe[GEOS_v3.3.5]","recipe[postgis]","recipe[postgres]","recipe[proj4]" ] }
