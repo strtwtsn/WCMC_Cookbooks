@@ -40,3 +40,7 @@ chef-solo -c /var/chef/config/chef-solo.rb -j /var/chef/roles/role.json file
 *Note*  Replace role.json with the relevant json file from the list above.
 
 
+# **What else do I need?** #
+
+To use the cookbooks you also need Ruby and the Chef Gem.  You can use the installscript.sh file to install these, it will also clone the Cookbook repository.  Replace role.json in the chef-solo -c /var/chef/config/chef-solo.rb -j /var/chef/roles/role.json file with the relavant json file from above for a fully automated experience
+
